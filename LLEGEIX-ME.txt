@@ -1,0 +1,53 @@
+m08uf3pr3a - David Miguel Garcia DAW2
+
+
+Part 2:
+1.
+git branch branca00,  git checkout branca00,  git status
+
+
+
+
+5.
+git checkout main,  git status,  git log		
+
+La diferència és que a la branca origin/main hem fet 2 commits i a la que hem creat nosaltres, branca00, només un.
+
+
+
+
+6.
+No podem veure la línia afegida en la pregunta 2 perquè els canvis els hem desat a l’altre branca, 
+a branca00 i al tornar a la branca main, tenim una versió anterior a la que hem modificat.
+
+
+
+7.
+git checkout branca00		
+
+Si que podem veure la linea que hem afegit a la pregunta 2 perquè els canvis els vam desar en aquesta branca.
+
+
+
+10b.
+git merge branca00
+
+
+
+12.
+git push -u origin main
+
+
+
+12c.
+Perquè a la comanda del push hem especificat que fèiem el push a la branca main.
+
+
+
+14a.
+git push -u origin branca01
+
+
+
+14c.
+Hi ha una diferència d’un commit.
